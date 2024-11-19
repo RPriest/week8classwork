@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <body
+    class="flex justify-center items-center bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 min-h-screen"
+  >
+    <div class="bg-white shadow-lg p-8 rounded-lg w-full max-w-md">
+      <h2 class="font-bold text-2xl text-center text-gray-800">Login</h2>
+
+      <form action="#" class="mt-6">
+        <div class="mb-4">
+          <label for="email" class="block font-medium text-gray-700 text-sm"
+            >Email</label
+          >
+          <input
+            type="email"
+            id="email"
+            class="border-gray-300 mt-1 p-2 border focus:border-blue-500 rounded-md focus:ring-2 focus:ring-blue-500 w-full"
+            placeholder="✉️ Enter your email"
+            required
+          />
+        </div>
+
+        <div class="mb-4">
+          <label for="password" class="block font-medium text-gray-700 text-sm"
+            >Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            class="border-gray-300 mt-1 p-2 border focus:border-blue-500 rounded-md focus:ring-2 focus:ring-blue-500 w-full"
+            placeholder="🔑 Enter your password"
+            required
+          />
+          <a
+            href="#"
+            class="float-right mt-1 text-blue-500 text-sm hover:underline"
+            >Forgot password?</a
+          >
+        </div>
+
+        <button
+          type="submit"
+          class="bg-gradient-to-r from-purple-500 to-blue-500 hover:opacity-90 px-4 py-2 rounded-md focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 w-full text-white focus:outline-none"
+        >
+          Login
+        </button>
+      </form>
+
+      <div class="flex justify-center items-center my-4">
+        <span class="text-gray-600 text-sm">Or login with</span>
+      </div>
+
+      <div class="flex justify-center gap-4">
+        <button class="bg-gray-100 hover:bg-gray-200 shadow p-2 rounded-full">
+          <img src="img/google-logo.png" alt="Google" class="w-6 h-6" />
+        </button>
+        <button class="bg-gray-100 hover:bg-gray-200 shadow p-2 rounded-full">
+          <img src="img/facebook-new.png" alt="Facebook" class="w-6 h-6" />
+        </button>
+        <button class="bg-gray-100 hover:bg-gray-200 shadow p-2 rounded-full">
+          <img src="img/twitter--v1.png" alt="Twitter" class="w-6 h-6" />
+        </button>
+      </div>
+
+      <p class="mt-6 text-center text-gray-600 text-sm">
+        Don’t have an account?
+        <a href="#" class="text-blue-500 hover:underline">Sign up</a>
+      </p>
+    </div>
+  </body>
+</html>
